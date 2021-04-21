@@ -1,10 +1,10 @@
-package Exception;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
 public class PersonManagement {
-    public Person inputPersonInfo(String name, String address, String sSalary) throws Exception {
+    public person inputPersonInfo(String name, String address, String sSalary) throws Exception {
         double salary;
         try {
             salary = Double.parseDouble(sSalary);
